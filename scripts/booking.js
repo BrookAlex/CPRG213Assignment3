@@ -13,7 +13,7 @@ let fullDayButton = document.getElementById('full');
 let halfDayButton = document.getElementById('half');
 let calculatedCostElement = document.getElementById('calculated-cost');
 let clearButton = document.getElementById('clear-button');
-let dailyRate = 35;
+let dailyRate = 0;
 
 
 
