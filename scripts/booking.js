@@ -6,7 +6,6 @@
 
 // These variables need to be reset or updated when a day is selected, a full or half day is chosen, or the clear button is clicked.
 
-let costPerDay = 0;
 let numberOfDays = 0;
 let daySelectorElements = document.querySelectorAll('.booking-page .day-selector li');
 let fullDayButton = document.getElementById('full');
