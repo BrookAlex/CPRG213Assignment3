@@ -42,8 +42,8 @@ clearButton.addEventListener('click', function(){
     });
     numberOfDays = 0;
     dailyRate = 35; 
-    document.getElementById('calculated-cost').innerHTML = 0;
-})
+    calculatedCostElement.innerHTML = 0;
+});
 
 
 
@@ -77,5 +77,5 @@ fullDayButton.addEventListener('click', function() {
 function calculateTotalCost() {
     let totalCost = numberOfDays * dailyRate;
 
-    document.getElementById('calculated-cost').innerHTML = totalCost;
+    calculatedCostElement.innerHTML = totalCost;
 }
